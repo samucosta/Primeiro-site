@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8" />
+</head>
+
+<body>
+    <header>
+        <!--Logotipo-->
+        <div class="logo_caixa">
+            <h1>
+                <img src="novo.png" title="MSP" class="logo"></img>
+            </h1>
+        </h1>
+        <!--Itens do Menu-->
+        <nav>
+            <ul>
+                <li> <a href="index.html"> SOBRE</a></li>
+                <li> <a href="produtos.html">PRODUTOS</a></li>
+                <li> <a href="contato.html"> CONTATO</a></li>
+            </ul>
+        </nav>
+    </div>
+<div class="formulario">
+    <section class="ctto">
+        <h4 class="ccc" id="cc1">  Contato  </h4>
+    </br>
+    <form name="frmContato" method="get" action="mailto:teste@mail.com" target="_blank"></form>
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <label for="nomesobrenome">* Nome e sobrenome </label>
+            <input type="text" id="nomesobrenome" name="" class="input-padrao" required>
+
+            <label for="email">* E-mail</label>
+            <input type="email" id="Email" name="" class="input-padrao" required placeholder="email@dominio.com">
+
+            <label for="email">* Telefone</label>
+            <input type="tel" id="Telefone" name="" class="input-padrao" required placeholder="(00)00000-0000">
+
+            <label for="email">* Mensagem</label>
+            <textarea cols="70" rows="10" id="mensagem" class="input-padrao"></textarea>
+
+            <label for="contato">Como prefere o nosso contato?
+                <input type="radio" value="radio-mail" name="Contato"> E-mail
+                <input type="radio" value="radio-mail" name="Contato"> Telefone
+                <input type="radio" value="radio-mail" name="Contato"> Whatsapp
+            </label>
+
+            <br>
+            <label for="horario">Qual o motivo do seu contato?
+                <select>
+                    <option>Selecione</option>
+                    <option>Dúvida</option>
+                    <option>Sugestão</option>
+                    <option>Elogio</option>
+                    <option>Reclamação</option>
+                </select>
+            </label>
+        </fieldset>
+
+        <label><input type="checkbox" class="chk">Gostaria de receber nossas novidades por e-mail</label>
+    </br>
+</br>
+        <input type="submit" value="Enviar formulário" class="enviar">
+    </form>
+    </section>
+
+</div>
+<footer>
+    <p class="copyright">&copy; Copyright MSP</p>
+</footer>
+</body>
+
+</html>
+
+</header>
