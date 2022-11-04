@@ -32,7 +32,7 @@ nav a{
     text-transform: uppercase;
     color: white;
     font-weight: bold;
-    text-decoration: overline;
+    text-decoration: none;
 }
 
 nav a:hover{
@@ -64,6 +64,16 @@ ul{
     width: 100%
        
 }
+
+.products{
+    width: 25%;;
+    margin: -1000px 0 200px 1050px;
+}
+
+.products:hover{
+    opacity: 0.7;
+}
+
 h1{
     font-family: 'Cardo',"Arial";
     color: aliceblue;
@@ -91,11 +101,8 @@ h1{
 .principal em {
     font-style: italic;
 }
-.atelie{
-    width: 120px;
-    float: left;
-    margin: 0 20px 20px 0;
-}
+    
+
 /*Estilização do Mapa*/
 .map {
     padding: 3em 0;
@@ -103,7 +110,6 @@ h1{
     background: #FFFFFE;
 }
 .mapa-conteudo{
-
     text-align: center;
     margin: 0 auto;
 }
@@ -156,4 +162,93 @@ margin:2em auto
     color:#000000;
     font-size: 13px;
     margin: -5 0 0 50;
+    margin-top: 0px;
+}
+
+.products-page{
+    padding: 3em 0;
+    text-align: center;
+    background:linear-gradient(rgb(2,23,37), rgb(9,24,28),rgb(1,49,76));
+    text-align: center;
+    color: aliceblue;}
+
+.Produto1{
+width: 15%;
+opacity: 1;
+transition: 400ms;
+box-shadow: 5px 7.5px 5px 0px #000000;
+margin-right:14%;
+}
+.Produto1:hover{
+    opacity: 0.7;
+}
+
+.Produto2{
+    width: 15%;
+opacity: 1;
+transition: 400ms;
+box-shadow: 5px 7.5px 5px 0px #000000;
+margin-right:15%;
+}
+.Produto2:hover{
+    opacity: 0.7;
+}
+
+.Produto3{
+width: 15%;
+opacity: 1;
+transition: 400ms;
+box-shadow: 5px 7.5px 5px 0px #000000;
+margin-right: 0%;
+}
+.Produto3:hover{
+    opacity: 0.7;
+}
+
+
+
+.formulario{
+padding: 0% 0% 10% 0%;
+margin-bottom: -05%;
+}
+
+.ccc{
+    margin-left: 45%;
+}
+form{
+margin-left: 20%;
+margin-right: 20%;
+margin-bottom: -1%;
+}
+form label, form legend{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+.input-padrao{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 85%;
+}
+fieldset{
+    width:auto;
+}.chk{
+    margin-top: 1%;
+}
+.enviar{
+    margin-left: 30%;
+    width: 40%;
+    padding: 15px 0;
+    background: rgb(5, 7, 126);
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+}
+.enviar:hover{
+    background: rgb(28, 32, 255);
+    transform: scale(1.2);
 }
